@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.contener{
+    margin: 80px auto;
+    width: 75%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    margin-bottom: 28px;
+}
+
+header h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+header button{
+    width: 183px;
+    height: 46px;
+    background: #007FFF;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;   
+    color: #FFFFFF;
+}
+
+.block1{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 37px;
+}
+
+.block1 p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.block1 span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #979797;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey; 
+}
+
+td{
+    padding: 10px 10px;
+}
+
+thead td{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #949494;
+}
+
+thead tr td:nth-child(2){
+    padding-left:23px ;
+}
+
+thead tr td:nth-child(3){
+    transform: translateX(180px);
+}
+
+thead tr td:nth-child(4){
+    transform: translateX(110px);
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 23px;
+}
+
+.grid_block{
+    width: 350.67px;
+    height: 228px;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    border-radius: 10px;
+    padding:24px 20px 24px 24px;
+}
+
+.grid_block h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom:11px ;
+}
+
+.grid_block p:nth-child(2){
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A5A5B4;
+    margin-bottom:16px ;
+}
+
+.grid_block span{
+    padding-right: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom:16px ;
+}
+
+.grid_block p:nth-child(5){
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #007FFF;
+    margin-top: 15px;
+}
+
+.active{
+    color: #007FFF !important;
+    cursor: pointer;
+}
